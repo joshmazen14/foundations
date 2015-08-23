@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##TestFirst JavaScript Overview   
 
 
@@ -56,3 +57,7 @@ http://www.creativebloq.com/javascript/javascript-debugging-beginners-3122820
 
 1. Forked & cloned the TestFirst repository.
 2. Installed Node and Testem.
+=======
+# foundations
+First repository for Fullstack Foundations
+>>>>>>> 8ccc1711a4f72bd1ec808cd9189cbd5a54bb5456
