@@ -1,4 +1,4 @@
-body {
+.body-class {
 	background-color: #006600;
 }
 
@@ -7,7 +7,7 @@ body {
 	font-family: Impact, sans-serif;
 	color: #FFFF00;
 	text-align: center;
-	padding-bottom: 32px
+	padding-bottom: 18px
 }
 
 #guess-prompt {
@@ -35,7 +35,7 @@ body {
 	height: 40px;
 	font-size: 28px;
 	padding-bottom: 10px;
-	margin-top: 100px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	background-color: blue;
 	border-style: solid black;
@@ -63,4 +63,27 @@ body {
 
 #number-guesses {
 	text-align: center;
+}
+
+#status {
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	font-family: Arial Black;
+	margin-left: 50px;
+	font-size: 28px;
+}
+
+ul {
+	position: absolute;
+}
+
+li {
+	font-size: 20px;
+}
+
+.winning {
+	background-image: url("normal.jpg");
 }
