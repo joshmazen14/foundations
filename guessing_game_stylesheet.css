@@ -1,0 +1,89 @@
+.body-class {
+	background-color: #006600;
+}
+
+#welcome {
+	font-size: 64px;
+	font-family: Impact, sans-serif;
+	color: #FFFF00;
+	text-align: center;
+	padding-bottom: 18px
+}
+
+#guess-prompt {
+	font-size: 32px;
+	font-family: Lucida, sans-serif;
+	text-align: center;
+	color: #FF0000;
+}
+
+.box {
+	padding: 10px 10px 20px 10px;
+	width: 240px;
+	height: 256px;
+	background-color: #009900;
+	margin: auto;
+}
+
+#guess {
+	height: 100px;
+	width: 236px;
+}
+
+#make-guess {
+	width: 240px;
+	height: 40px;
+	font-size: 28px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: blue;
+	border-style: solid black;
+	border-width: 3px;
+}
+
+.other-buttons {
+	text-align: center;
+	padding-top: 20px
+}
+
+#give-up {
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 25%;
+}
+
+#play-again {
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 25%;
+}
+
+#number-guesses {
+	text-align: center;
+}
+
+#status {
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	font-family: Arial Black;
+	margin-left: 50px;
+	font-size: 28px;
+}
+
+ul {
+	position: absolute;
+}
+
+li {
+	font-size: 20px;
+}
+
+.winning {
+	background-image: url("normal.jpg");
+}
