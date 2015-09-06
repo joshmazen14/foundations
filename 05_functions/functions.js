@@ -1,4 +1,5 @@
 // Functions.js
+<<<<<<< HEAD
 var concat_string = function() {
 	var arr = [];
 	for (i=0; i<arguments.length; i++) {
@@ -49,3 +50,5 @@ var createObjectWithTwoClosures = function () {
 	}
 	return object
 }
+=======
+>>>>>>> node_projects_branch
