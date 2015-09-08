@@ -1,4 +1,5 @@
 // 06_Functional 
+<<<<<<< HEAD
 var doubler = function(num) {
 	return 2*num;
 }
@@ -103,3 +104,5 @@ var any = function(array, func) {
 		return false
 	}
 }
+=======
+>>>>>>> node_projects_branch
