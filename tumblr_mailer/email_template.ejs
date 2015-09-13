@@ -1,0 +1,20 @@
+<html>
+<head><meta charset='utf-8'></head>
+<body>
+	<p>Hey <%= firstName %>,</p>
+	<br>
+	<p>Hope all has been well with you. It's been about <%= numMonthsSinceContact %> months since we've last spoken, so I figured I'd reach out to you and say hello. In case you didn't know, I'm about to start learning how to code at Fullstack Academy of Code in New York City. This is a really exciting next step in my life for me, and I'm thrilled to share it with you.</p>
+	<br>
+	<p>While I'm at Fullstack, I will be writing a blog to keep my friends and family updated with the experience. If you'd like to read about it, you can find my latest posts here:
+	<ul>
+		<% for (var i=0; i<latestPosts.length; i++) {%>
+			<li><a href=<%=latestPosts[i].short_url %>> <%= latestPosts[i].title %> </a></li>
+		<% } %>
+	</ul> 
+	Hope to speak to you again soon.
+	</p>
+	<p>Best,</p>
+	<br>
+	<p>Josh</p>
+</body>
+</html>
